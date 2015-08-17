@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <title>Backbone Example</title>
+
+    <style>
+        html {
+            height: 100%;
+            font-family: sans-serif;
+            background-image: linear-gradient(bottom, #CCC 10%, #EEE 55%);
+            background-image: -o-linear-gradient(bottom, #CCC 10%, #EEE 55%);
+            background-image: -moz-linear-gradient(bottom, #CCC 10%, #EEE 55%);
+            background-image: -webkit-linear-gradient(bottom, #CCC 10%, #EEE 55%);
+            background-image: -ms-linear-gradient(bottom, #CCC 10%, #EEE 55%);
+            background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.1, #CCC), color-stop(0.55, #EEE));
+        }
+        label {
+            display: inline-block;
+            width: 35px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Backbone Example</h1>
+    <form id="form">
+        <div id="nomes">
+            <label>Id</label>
+            <input type="text" name="id"><br>
+        </div>
+        <div id="nomes">
+            <label>Name</label>
+            <input type="text" name="name"><br>
+        </div>
+        <label>Age</label>
+        <input type="text" name="age"><br>
+        <textarea name="description"></textarea>
+    </form>
+
+    <script src="javascripts/json2.js" type="text/javascript"></script>
+    <script src="javascripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="javascripts/underscore-min.js" type="text/javascript"></script>
+    <script src="javascripts/backbone-min.js" type="text/javascript"></script>
+    <script src="javascripts/Backbone.ModelBinder.min.js" type="text/javascript"></script>
+    <script src="application.js" type="text/javascript"></script>
+</body>
+</html>
